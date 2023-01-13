@@ -111,10 +111,14 @@ hr {
 }
 .top-blogs {
   margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
 }
 .top-blog-info {
   display: flex;
   gap: 16px;
+  width: 391px;
 }
 .top-blog-thumbnail img {
   width: 177px;
