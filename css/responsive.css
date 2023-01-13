@@ -1,0 +1,58 @@
+/* small devices */
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .menu-bar {
+    display: none;
+  }
+  .top-blog-info,
+  .course-item,
+  .top-blog-thumbnail img,
+  .course-item img {
+    width: 100%;
+  }
+  .top-players,
+  .top-blogs,
+  .courses-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top-blog-info {
+    flex-direction: column;
+  }
+  .course-deatils {
+    flex-direction: column;
+    text-align: center;
+  }
+  .watch-hour {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .container {
+    width: 90%;
+  }
+  .top-blog-info,
+  .course-item,
+  .top-blog-thumbnail img,
+  .course-item img {
+    width: 90%;
+  }
+  .top-players,
+  .top-blogs,
+  .courses-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top-blog-info {
+    flex-direction: column;
+  }
+  .course-deatils {
+    flex-direction: column;
+    text-align: center;
+  }
+  .watch-hour {
+    margin-top: 5px;
+  }
+}
