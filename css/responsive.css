@@ -24,6 +24,7 @@
   .course-deatils {
     flex-direction: column;
     text-align: center;
+    margin-top: 8px;
   }
   .watch-hour {
     margin-top: 5px;
@@ -51,6 +52,7 @@
   .course-deatils {
     flex-direction: column;
     text-align: center;
+    margin-top: 10px;
   }
   .watch-hour {
     margin-top: 5px;
